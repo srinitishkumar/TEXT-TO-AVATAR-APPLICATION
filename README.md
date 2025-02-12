@@ -1,4 +1,5 @@
 Text-to-Avatar Application
+
 Description
 This is a Text-to-Avatar application where users can generate avatars by typing a descriptive text. The application uses a front-end React-based UI and simulates avatar generation with image placeholders. In a production environment, you would integrate with an API to generate avatars dynamically.
 
