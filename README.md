@@ -29,27 +29,14 @@ Clone the repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/text-to-avatar.git
+git clone https://github.com/srinitishkumar/TEXT-TO-AVATAR-APPLICATION
 Navigate into the project directory:
 
 To install vite I used 
 
 npm create vite@latest my-vite-app
 
-bash
-Copy
-cd text-to-avatar
-
-
-bash
-Copy
-npm install
-Start the development server:
-
-bash
-Copy
-npm run dev
-This will start the application locally at http://localhost:3000.
+This will start the application locally at https://charming-cobbler-cbeb35.netlify.app/.
 
 Project Structure
 graphql
@@ -60,9 +47,12 @@ src/
 ├── App.tsx                # Main app component
 ├── index.tsx              # Entry point of the app
 └── styles/                # CSS and styling files
-Features to Add in Production
+Features to Add in Production : 
+
 API Integration:Implemented Vite is likely being used as the build tool for this application, but it's important to understand Vite's role in the tech stack:
-Vite is primarily a frontend build tool and development server, not a backend technology. It's designed to provide fast development experiences for frontend applications built with frameworks like React, Vue, Angular, etc. to securely handle the Vidnoz API key and proxy requests to Vidnoz's Text-to-Avatar API.
+
+Vite is primarily a frontend build tool and development server, not a backend technology. It's designed to provide fast development experiences for frontend applications built with frameworks like React, Vue, Angular to securely handle the Vidnoz API key and proxy requests to Vidnoz's Text-to-Avatar API.
+
 Avatar Caching: Store generated avatars for reuse and reduce API calls.
 Advanced Error Handling: Implement more detailed error feedback based on API responses.
 Rate Limiting: Prevent spamming of API requests by users.
