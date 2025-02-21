@@ -1,5 +1,4 @@
 Text-to-Avatar Application
-
 Description
 This is a Text-to-Avatar application where users can generate avatars by typing a descriptive text. The application uses a front-end React-based UI and simulates avatar generation with image placeholders. In a production environment, you would integrate with an API to generate avatars dynamically.
 
@@ -33,10 +32,14 @@ Copy
 git clone https://github.com/yourusername/text-to-avatar.git
 Navigate into the project directory:
 
+To install vite I used 
+
+npm create vite@latest my-vite-app
+
 bash
 Copy
 cd text-to-avatar
-Install dependencies: If you haven’t installed Node.js, install it from nodejs.org. Then, run the following command:
+
 
 bash
 Copy
@@ -58,7 +61,8 @@ src/
 ├── index.tsx              # Entry point of the app
 └── styles/                # CSS and styling files
 Features to Add in Production
-API Integration: Set up a backend (Node.js with Express) to securely handle the Vidnoz API key and proxy requests to Vidnoz's Text-to-Avatar API.
+API Integration:Implemented Vite is likely being used as the build tool for this application, but it's important to understand Vite's role in the tech stack:
+Vite is primarily a frontend build tool and development server, not a backend technology. It's designed to provide fast development experiences for frontend applications built with frameworks like React, Vue, Angular, etc. to securely handle the Vidnoz API key and proxy requests to Vidnoz's Text-to-Avatar API.
 Avatar Caching: Store generated avatars for reuse and reduce API calls.
 Advanced Error Handling: Implement more detailed error feedback based on API responses.
 Rate Limiting: Prevent spamming of API requests by users.
