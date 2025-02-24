@@ -34,14 +34,19 @@ const maleAvatars = [
   'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400',
   'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400',
   'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400',
-  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400'
-];
-
+  'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400',
+  'https://images.unsplash.com/photo-1590886157898-0c20772a2284?w=400',
+  'https://images.unsplash.com/photo-1734082532182-e967481a260a?w=400',
+  'https://images.unsplash.com/photo-1570724061670-86a53c509dee?w=400'
 const femaleAvatars = [
   'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400',
   'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400',
   'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400',
-  'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400'
+  'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400',
+  'https://images.unsplash.com/photo-1630883664901-b15bc8a277d4?w=400',
+  'https://images.unsplash.com/photo-1607503873903-c5e95f80d7b9?w=400',
+  'https://images.unsplash.com/photo-1736939666660-d4c776e0532c?w=400',
+  'https://images.unsplash.com/photo-1734033923371-c5d23cb28339?w=400'
 ];
 
 function App() {
